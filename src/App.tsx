@@ -174,7 +174,7 @@ export default function App() {
   // Password Verification Logic
   const handlePasswordSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passwordInput === 'Lambionie345') {
+    if (passwordInput === 'Onceuponam@sterbator') {
       setPasswordError('');
       setStep('name');
     } else {
