@@ -880,7 +880,7 @@ export default function App() {
                   onClick={() => { setFinalChoice('creator'); confetti(); }}
                   className="py-3 px-4 bg-slate-800 hover:bg-slate-700/50 border border-slate-700 hover:border-purple-500 rounded-xl text-left font-medium transition flex items-center justify-between group text-slate-200"
                 >
-                  <span>By the Creator (Alex)</span>
+                  <span>By the Creator (Unisexually named creature)</span>
                   <span className="opacity-0 group-hover:opacity-100 transition">👑</span>
                 </button>
                 <button
@@ -902,7 +902,7 @@ export default function App() {
               <div className="text-center py-2 space-y-6 animate-scale-up">
                 {finalChoice === 'creator' && (
                   <div className="space-y-4">
-                    <h3 className="text-lg font-bold text-purple-400">Would you show appreciation to Alex?</h3>
+                    <h3 className="text-lg font-bold text-purple-400">Would you show appreciation to him?</h3>
                     <div className="flex justify-center gap-4">
                       <button 
                         onClick={() => setFinalActionTaken(true)}
